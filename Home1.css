@@ -1,0 +1,276 @@
+body{
+    background: greenyellow;
+    overflow: scroll;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.welcome{
+    width: 90%;
+    background:#efe5e0;
+    color: #757575;
+    margin-left: 5%;
+    height: 50px;
+}
+
+#number{
+    color: #757575;
+    float: right;
+    margin-top: -16px;
+    margin-right: 15em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#main_text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 25%;
+    padding-top: 12px;
+}
+
+.container{
+    height: 11em;
+    width: 100%;
+    background: white;
+    position: fixed;
+    z-index: 100;
+}
+
+#about_company{
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.logo_image{
+    padding-top: 40px;
+    padding-left: 70px;
+    width: 40px;
+}
+
+.page_links{
+
+    position:absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    display: inline-block;
+    margin-left: 35%;
+    margin-top: -35px;
+}
+
+div a{
+    padding-right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.zoom_image{
+    overflow: hidden;
+    padding-left: 30px;
+    padding-top: 20px;
+    height: 33em;
+    width: 180em;
+}
+
+video{
+    max-width: 100%;
+    max-height: 20%;
+}
+
+.sec2{
+    overflow: hidden;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+#com_desc{
+    color: #8bc13f;
+    font-weight: bolder;
+    font-size: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 30px;
+    max-width: 85%;
+}
+
+#com_desk_para{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-left: 30px;
+    color: black;
+    font-size: 17px;
+    line-height: 25px;
+    max-width: 90%;
+}
+
+#com_desk_para1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-left: 30px;
+    color: black;
+    font-size: 17px;
+    line-height: 25px;
+    padding-bottom: 80px;
+    max-width: 90%;
+}
+
+#green_square{
+    height: 13em; 
+    width: 10em; 
+    background: #8bc13f;
+    margin-left: 23em;
+    margin-top: -38.7em;
+    position:relative
+    
+}
+
+#explore{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    padding-left: 7.5em;
+    padding-top: 30px;
+}
+
+div#tile_image{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tile_image_desc{
+  width: 23em;
+  height: 20em;
+  margin: 15px;
+  overflow: hidden;
+  transition: 0.5s ease;
+ 
+}
+
+.tile_image_desc:hover{
+    
+    transform: scale(1.1); 
+    
+}
+
+h1{
+        color: white; 
+        font-size: 50px; 
+        font-weight: bold; 
+        font-family: Arial, Helvetica, sans-serif; 
+        padding-left: 40%;
+}
+
+.footer{
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+#footer_para{
+    text-align: left;
+    max-width: 30em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 50px;
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+.footer_links{
+    margin-left: 60px;
+    max-width: 100%;
+    line-height: 2.5em;
+    color: white;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+#icon_size{
+    height: 30px;
+    width: 30px;
+    background: #8bc13f;
+}
+
+#social_icon_size{
+    height: 17px;
+    width: 19px;
+    background: #8bc13f;
+}
+
+#footer_icon_height{
+    height: 150px;
+    width: 300px;
+    margin-left:57em;
+    margin-top: -3em;
+}
+
+#table_adjust{
+    line-height: 40px;
+    background: pink;
+}
+
+.footer_final{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#footer_left{
+    width: 42%;
+    height: 60vh;
+    color: white;
+}
+
+#footer_right{
+    width: 29%;
+    height: 60vh;
+    color: white;
+}
+
+#footer_right1{
+    width: 29%;
+    height: 60vh;
+}
+
+#social_icons{
+    display: inline;
+}
+
+.vert_line{
+margin-top: 10em;
+margin-left: 20px;
+height: -10px;
+text-align: center;
+border-right: 2px solid #b4b4b4;
+width: 80px;
+height: 10px;
+color: white;
+}
+
+.vert_line{
+margin-top: 10em;
+margin-left: 10px;
+height: -10px;
+text-align: center;
+border-right: 2px solid #b4b4b4;
+width: 80px;
+height: 15px;
+}
